@@ -25,7 +25,7 @@
 	Seccion del Cabezal   
 	======================================-->
 
-	<header class="row">
+	<header id="cabezote" class="row">
 		
 		<figure id="logotipo" class="col-lg-2 col-md-3 col-sm-3 col-xs-12">
 			
@@ -42,12 +42,12 @@
 		<nav class="col-lg-6 col-md-7 col-sm-8 col-xs-12">
 			
 			<ul>
-				<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Boton 1</a></li>
-				<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Boton 2</a></li>
-				<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Boton 3</a></li>
-				<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Boton 4</a></li>
-				<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Boton 5</a></li>
-				<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Boton 6</a></li>
+				<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#cabezote">Inicio</a></li>
+				<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#inicioGaleria">Galeria</a></li>
+				<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#inicioMouse">Mouse</a></li>
+				<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#inicioScroll">Scroll</a></li>
+				<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Formulario</a></li>
+				<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Angular</a></li>
 
 			</ul>
 
@@ -111,6 +111,11 @@
 
 	</div>
 	<!-- GALERIA-->
+	<h1 id="inicioGaleria" class="row titulos">
+		<hr>
+		Galeria de Imagenes
+		<hr>
+	</h1>
 	<div id="galeria" class="row">
 		<ul>
 			<li class="col-lg-2 col-md-3 col-sm-4 col-xs-12" > <img src="img/galeria/01.jpg" alt=""> </li>
@@ -133,7 +138,11 @@
 	<!-- ===========================
 	Efecto Mouse
 	================================  -->
-
+	<h1 id="inicioMouse" class="row titulos">
+		<hr>
+		Movimiento Mouse
+		<hr>
+	</h1>
 	<div id="efectoMouse" class="row">
 			<figure></figure>
 			<figure></figure>
@@ -143,6 +152,11 @@
 	<!-- ===========================
 	Efecto Scroll
 	================================  -->
+	<h1 id="inicioScroll" class="row titulos">
+		<hr>
+		Efecto Scroll
+		<hr>
+	</h1>
 	<div id="scroll">
 		<!-- Articulo 1-->
 		<article class=row>
@@ -228,8 +242,10 @@
 </div>
 
 <!-- Seccion de scripts -->
+
 <script src="js/slide.min.js"></script>
-<script src="js/galeria.js"></script>
-<script src="js/mouse.js"></script>
+<script src="js/galeria.min.js"></script>
+<script src="js/mouse.min.js"></script>
+<script src="js/scroll.min.js"></script>
 </body>
 </html>
